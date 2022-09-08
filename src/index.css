@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-gradient-to-l to-dark-700 via-dark-700 from-dark-200
+}
