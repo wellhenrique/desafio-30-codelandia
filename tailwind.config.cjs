@@ -5,13 +5,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "nature": "url('rddback.png')",
+      },
       fontFamily: {
         sans: 'Roboto, sans-serif',
+      },
+      boxShadow: {
+        '3xl': '0 0 100px 600px',
       },
       colors: {
         dark: {
           200: "#1B2838",
-          700: "#0E131E"
+          700: "#0E131E",
+          007: "rgba(14, 19, 30, 0.5)",
+          004: "rgba(14, 19, 30, 0.7)",
+          001: "rgba(14, 19, 30, 0.1)",
         },
         blue: {
           500: "#0094FF",
